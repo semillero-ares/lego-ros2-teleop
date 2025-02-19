@@ -38,3 +38,8 @@ pip install -r .\requirements.txt
 C:\venv\mkdocs\Scripts\Activate.ps1  
 mkdocs serve
 ```
+## GitHub pages
+```bash
+C:\venv\mkdocs\Scripts\Activate.ps1  
+mkdocs gh-deploy
+```
