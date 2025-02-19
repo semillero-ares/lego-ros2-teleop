@@ -1,0 +1,53 @@
+:root {
+  --md-primary-fg-color: #000066;
+  --md-primary-fg-color--light: #000066;
+  --md-primary-fg-color--dark: #000066;
+  --md-typeset-a-color: brown;
+}
+
+.md-grid {
+  max-width: 1024px;
+}
+
+.input {
+  background-color: #00b0ff;
+  color: white;
+  cursor: pointer;
+}
+
+.abstract p:not(:first-child) {
+  font-size: 0.9rem !important;
+}
+
+.md-typeset a {
+  color: brown !important;
+}
+
+.people {
+  display: flex;
+}
+
+.people div:first-child {
+  min-width: 120px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+a.md-social__link {
+  color: white !important;
+}
+
+.admonition.example p em {
+  color: #7c4dff;
+  font-weight: bold;
+  text-decoration: #7c4dff solid underline;
+}
+
+label .md-ellipsis {
+  color: #28b3a9;
+}
+
+a.white {
+  color: white !important;
+}

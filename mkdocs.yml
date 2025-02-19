@@ -1,0 +1,42 @@
+site_name: "{{Título del sitio}}"
+site_url: "https://www.eafit.edu.co/"
+copyright: Copyright &copy; 2025 {{nombre de los estudiantes}}. – <a class="white" href="#__consent">Preferencias de las cookies</a>
+extra:
+  generator: false
+  homepage: https://www.eafit.edu.co/
+  consent:
+    title: Consentimiento del uso de cookies
+    description: >- 
+      Usamos cookies para recordar tus visitas y preferencias, y también para mejorar nuestra documentación asegurándonos de que encuentres lo que necesitas. Al darnos tu consentimiento, nos ayudas a hacer que nuestra información sea aún más útil para ti. ¡Gracias por tu apoyo!
+
+plugins:
+  - search
+
+theme:
+  name: material
+  language: es
+  palette:
+    primary: custom
+  font:
+    text: Inter
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+  favicon: _assets/favicon.png
+  logo: _assets/logo.svg
+# custom_dir: overrides
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css: 
+  - _assets/custom.css
+# extra_javascript:
